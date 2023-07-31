@@ -21,10 +21,7 @@ const Navbar = () => {
         </Link>
       </nav>
       {/* Login Button */}
-      <button
-        type="submit"
-        className="bg-gray-800 px-6 py-1 text-white text-md"
-      >
+      <button type="submit" className="bg-gray-800 px-6 py-1 text-white">
         Login
       </button>
     </div>
