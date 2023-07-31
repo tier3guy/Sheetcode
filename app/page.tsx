@@ -8,7 +8,7 @@ import { Button } from "@/components";
 export default function Home() {
   return (
     <main className="w-100">
-      <div className="w-100 px-10 flex justify-between items-center gap-[50px]">
+      <div className="w-100 flex justify-between items-center gap-[50px]">
         <div>
           <h1 className="text-4xl w-2/3 mb-4">
             Elevate Your Coding Skills with Curated DSA Problems!
