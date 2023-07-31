@@ -3,14 +3,14 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="w-100 p-4 flex justify-between items-center">
+    <div className="w-100 px-10 py-4 flex justify-between items-center">
       <Logo />
       {/* Navigation links here */}
       <nav className="flex items-center gap-4">
         <Link href="/">
           <p>Overview</p>
         </Link>
-        <Link href="/">
+        <Link href="/problems">
           <p>Problems</p>
         </Link>
         <Link href="/">

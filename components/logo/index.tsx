@@ -5,7 +5,7 @@ const Logo = ({
   className,
   label,
 }: {
-  style?: object;
+  style?: React.CSSProperties;
   className?: String;
   label?: String;
 }) => {
