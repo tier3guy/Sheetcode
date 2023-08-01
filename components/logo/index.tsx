@@ -10,7 +10,7 @@ const Logo = ({
   label?: String;
 }) => {
   return (
-    <p style={{ ...style }} className={`text-lg ${className}`}>
+    <p style={{ ...style }} className={`text-xl ${className}`}>
       {label ? label : "Sheetcode."}
     </p>
   );
