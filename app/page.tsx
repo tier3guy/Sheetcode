@@ -3,7 +3,7 @@
 import Image from "next/image";
 import FlagBanner from "@/public/assets/flagBanner.svg";
 import Banner from "@/public/assets/Banner.svg";
-import Wave from "@/public/assets/wave.svg";
+import Analytics from "@/public/assets/analytics.svg";
 
 import { Button } from "@/components";
 
@@ -41,10 +41,11 @@ export default function Home() {
           <p className="w-[90%] text-gray-500">
             Welcome to Sheetcode. , your ultimate destination for mastering Data
             Structures and Algorithms (DSA) with ease and efficiency. Founded by
-            Avinash Gupta and Harsh Agarwal, two passionate developers and
-            lifelong friends, this platform was born out of a shared dream to
-            create an inclusive and comprehensive resource for all aspiring
-            programmers and coding enthusiasts.
+            <span className="underline ms-1">Avinash Gupta</span> and{" "}
+            <span className="underline">Harsh Agarwal</span>, two passionate
+            developers and lifelong friends, this platform was born out of a
+            shared dream to create an inclusive and comprehensive resource for
+            all aspiring programmers and coding enthusiasts.
           </p>
           <p className="w-[90%] text-gray-500 mt-4">
             At Sheetcode. , we firmly believe that the journey of becoming an
@@ -64,6 +65,24 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex justify-between gap-[50px] items-center mt-10">
+        <div>
+          <h1 className="text-4xl w-2/3 mb-4">
+            Advanced Analytics: Unlocking Your Performance Insights
+          </h1>
+          <p className="w-[90%] text-gray-500">
+            {`At Sheetcode. , we believe that understanding your strengths and
+            areas for improvement is crucial for honing your coding skills
+            effectively. That's why we've integrated powerful analytics features
+            into our platform, providing you with valuable insights for each
+            topic in Data Structures and Algorithms (DSA) that you practice.`}
+          </p>
+          <p className="w-[90%] text-gray-500 mt-5">
+            {`Our analytics dashboard showcases your proficiency scores for each DSA topic. With a clear breakdown of your performance, you'll gain a comprehensive understanding of the areas where you excel and those that require more attention. Visual graphs and progress charts will track your growth over time, motivating you to push your boundaries and reach new heights.`}
+          </p>
+        </div>
+        <Image src={Analytics} alt="analytics" />
       </div>
     </main>
   );
