@@ -12,7 +12,7 @@ export default function Home() {
     <main className="w-100">
       <div className="w-100 flex justify-between items-center gap-[50px]">
         <div>
-          <h1 className="text-4xl w-2/3 mb-4">
+          <h1 className="text-4xl w-2/3 mb-4 font-semibold">
             Elevate Your Coding Skills with Curated DSA Problems!
           </h1>
           <p className="w-[90%] text-gray-500">
@@ -37,15 +37,29 @@ export default function Home() {
       >
         <Image src={FlagBanner} alt="banner" className="w-[40%] h-[40%]" />
         <div>
-          <h1 className="text-4xl w-2/3 mb-8">About Sheetcode.</h1>
+          <h1 className="text-4xl w-2/3 mb-8 font-semibold">
+            Unleashing the Prodigies
+          </h1>
           <p className="w-[90%] text-gray-500">
             Welcome to Sheetcode. , your ultimate destination for mastering Data
             Structures and Algorithms (DSA) with ease and efficiency. Founded by
-            <span className="underline ms-1">Avinash Gupta</span> and{" "}
-            <span className="underline">Harsh Agarwal</span>, two passionate
-            developers and lifelong friends, this platform was born out of a
-            shared dream to create an inclusive and comprehensive resource for
-            all aspiring programmers and coding enthusiasts.
+            <span className="underline mx-1 cursor-pointer">
+              <a href="https://avinash-iota.vercel.app/" target="_blank">
+                Avinash Gupta
+              </a>
+            </span>
+            and
+            <span className="underline cursor-pointer mx-1">
+              <a
+                href="https://www.linkedin.com/in/harshagarwal2002/"
+                target="_blank"
+              >
+                Harsh Agarwal
+              </a>
+            </span>
+            , two passionate developers and lifelong friends, this platform was
+            born out of a shared dream to create an inclusive and comprehensive
+            resource for all aspiring programmers and coding enthusiasts.
           </p>
           <p className="w-[90%] text-gray-500 mt-4">
             At Sheetcode. , we firmly believe that the journey of becoming an
@@ -68,7 +82,7 @@ export default function Home() {
       </div>
       <div className="flex justify-between gap-[50px] items-center mt-10">
         <div>
-          <h1 className="text-4xl w-2/3 mb-4">
+          <h1 className="text-4xl w-2/3 mb-4 font-semibold">
             Advanced Analytics: Unlocking Your Performance Insights
           </h1>
           <p className="w-[90%] text-gray-500">

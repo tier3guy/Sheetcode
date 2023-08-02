@@ -10,16 +10,16 @@ const Navbar = () => {
       {/* Navigation links here */}
       <nav className="flex items-center gap-4">
         <Link href="/">
-          <p className="text-lg">Overview</p>
+          <p className="text-md">Overview</p>
         </Link>
         <Link href="/problems">
-          <p className="text-lg">Problems</p>
+          <p className="text-md">Problems</p>
         </Link>
         <Link href="/#about">
-          <p className="text-lg">About</p>
+          <p className="text-md">About</p>
         </Link>
         <Link href="/">
-          <p className="text-lg">How does it Works</p>
+          <p className="text-md">How does it Works</p>
         </Link>
       </nav>
       {/* Login Button */}

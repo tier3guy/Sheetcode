@@ -9,9 +9,15 @@ const Logo = ({
   className?: String;
   label?: String;
 }) => {
+  if (label)
+    return (
+      <p style={style} className={`text-xl ${className}`}>
+        {label}
+      </p>
+    );
   return (
-    <p style={{ ...style }} className={`text-xl ${className}`}>
-      {label ? label : "Sheetcode."}
+    <p style={style} className={`text-xl ${className}`}>
+      Sheetcode<span className="font-bold">.</span>
     </p>
   );
 };
