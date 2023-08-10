@@ -3,9 +3,11 @@
 import { Logo, Button } from "@/components";
 import Link from "next/link";
 
-const Navbar = () => {
+const Navbar = ({ className }: { className?: String }) => {
   return (
-    <div className="w-100 py-6 flex justify-between items-center">
+    <div
+      className={`w-100 px-10 py-6 flex justify-between items-center ${className}`}
+    >
       <Logo />
       {/* Navigation links here */}
       <nav className="flex items-center gap-4">
